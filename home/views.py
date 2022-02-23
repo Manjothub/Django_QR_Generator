@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from qrcode import *
+
 data=None
 def INDEX(request):
     global data
